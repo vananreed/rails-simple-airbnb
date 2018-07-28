@@ -1,0 +1,5 @@
+<%= @flat.name %>
+
+<%= link_to "Edit this listing", edit_flat_path(@flat) %>
+<%= link_to "Delete this listing", flat_path(@flat), method: :delete, data: {confirm: "Are you sure you want to remove this listing?"} %>
+<%= link_to "Back to Flats", flats_path %>
